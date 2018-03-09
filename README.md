@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/believer/track-duration.svg?branch=master)](https://travis-ci.org/believer/track-duration)
 [![Maintainability](https://api.codeclimate.com/v1/badges/01272ffb94f581702d0f/maintainability)](https://codeclimate.com/github/believer/track-duration/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/01272ffb94f581702d0f/test_coverage)](https://codeclimate.com/github/believer/track-duration/test_coverage)
+
 Converts milliseconds to a format like Spotify's track durations.
 
 ### Installation
