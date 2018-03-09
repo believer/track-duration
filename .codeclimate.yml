@@ -1,0 +1,7 @@
+exclude_patterns:
+  - "spec/**/"
+  - "test/**/"
+plugins: 
+  eslint:
+    enabled: true
+    channel: "eslint-4"
