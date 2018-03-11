@@ -1,8 +1,7 @@
 {
   "name": "track-duration",
   "version": "0.1.0",
-  "description":
-    "Converts milliseconds to a format like Spotify's track durations",
+  "description": "Converts milliseconds to a format like Spotify's track durations",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -44,11 +43,17 @@
   "homepage": "https://github.com/believer/track-duration#readme",
   "license": "MIT",
   "jest": {
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "transform": {
       "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testMatch": ["**/__tests__/*.(ts|tsx|js)"]
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx|js)"
+    ]
   }
 }
