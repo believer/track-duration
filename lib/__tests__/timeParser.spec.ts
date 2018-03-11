@@ -22,6 +22,11 @@ describe('#timeParser', () => {
     expect(timeParser(60000)).toEqual('1:00')
   })
 
+  it('returns when minutes are super close to 60', () => {
+    expect(timeParser(3599000)).toEqual('59:59')
+    expect(timeParser(3599999)).toEqual('59:59')
+  })
+
   it('returns when minutes are exactly 60', () => {
     expect(timeParser(3600000)).toEqual('1:00:00')
   })
