@@ -1,6 +1,5 @@
 exclude_patterns:
-  - "spec/**/"
-  - "test/**/"
+  - "lib/**/*.spec.ts"
 plugins: 
   eslint:
     enabled: true
