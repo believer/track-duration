@@ -26,7 +26,7 @@ Takes milliseconds and returns a formatted duration.
 ```js
 import { parse } from 'track-duration'
 
-parse(5000000) // 1:23:20
+parse(5000000) // 1:23:19
 parse(223452) // 3:43
 ```
 
