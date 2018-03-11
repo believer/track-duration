@@ -2,7 +2,7 @@ import timeParser from '../timeParser'
 
 describe('#timeParser', () => {
   it('returns time with h:min:s', () => {
-    expect(timeParser(5000000)).toEqual('1:23:20')
+    expect(timeParser(5000000)).toEqual('1:23:19')
   })
 
   it('returns time with min:s', () => {
@@ -11,6 +11,11 @@ describe('#timeParser', () => {
 
   it('returns time with 0:s', () => {
     expect(timeParser(50000)).toEqual('0:50')
+  })
+
+  it('returns when seconds are super close to 60', () => {
+    expect(timeParser(59900)).toEqual('0:59')
+    expect(timeParser(59999)).toEqual('0:59')
   })
 
   it('returns when seconds are exactly 60', () => {
