@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "23.3.7",
-    "jest": "23.5.0",
+    "jest": "23.6.0",
     "ts-jest": "23.0.1",
     "tslint": "5.11.0",
     "typescript": "2.9.2"
