@@ -19,7 +19,7 @@
     "babel-jest": "26.0.1",
     "jest": "26.0.1",
     "ts-jest": "25.0.0",
-    "tslint": "6.1.0",
+    "tslint": "6.1.2",
     "typescript": "3.8.3"
   },
   "author": {
