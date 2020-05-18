@@ -1,4 +1,13 @@
 coverage
 src
+test
+lib
 
 .github
+.merlin
+.releaserc
+bsconfig.json
+CHANGELOG.md
+LICENSE
+renovate.json
+rollup.config.js
