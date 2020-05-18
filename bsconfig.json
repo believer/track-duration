@@ -1,0 +1,26 @@
+{
+  "name": "track-duration",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    { "dir": "test", "subdirs": true, "type": "dev" }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-test-framework"],
+  "warnings": {
+    "error": "+101"
+  },
+  "warnings": {
+    "number": "+A-4-9-40-41-42-48",
+    "error": "+A-3-4-40-42-44-102"
+  },
+  "refmt": 3
+}
+
