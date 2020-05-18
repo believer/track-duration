@@ -14,7 +14,7 @@
     "coverage": "npm test -- --coverage",
     "rollup:build": "rollup -c --compact",
     "prepare": "cross-env NODE_ENV=production npm run prepare:build",
-    "prepare:build": "trash dist && npm test && npm run build && npm run rollup:build"
+    "prepare:build": "trash dist && npm run build && npm test && npm run rollup:build"
   },
   "dependencies": {
     "bs-platform": "7.3.2"
