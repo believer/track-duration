@@ -1,9 +1,5 @@
 coverage
-lib
-tsconfig.json
-tslint.json
+src
 
-.babelrc
 .codeclimate.yml
-.eslintrc
-.travis.yml
+.github
