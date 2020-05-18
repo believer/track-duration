@@ -65,7 +65,7 @@
       "**/*__test.bs.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!(bs-platform)/)"
+      "node_modules/(?!(bs-platform|reason-test-framework)/)"
     ]
   }
 }
