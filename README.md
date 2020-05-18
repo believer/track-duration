@@ -31,5 +31,6 @@ parse(223452) // 3:43
 ### Tests
 
 ```
+npm run build // compile javascript code
 npm test
 ```
