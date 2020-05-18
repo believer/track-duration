@@ -5,3 +5,8 @@ coverage
 
 # Build folder
 dist
+lib/bs
+
+# Build files
+.merlin
+.bsb.lock
