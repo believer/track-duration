@@ -6,6 +6,7 @@ coverage
 # Build folder
 dist
 lib/bs
+*.bs.js
 
 # Build files
 .merlin
