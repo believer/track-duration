@@ -1,6 +1,6 @@
 {
   "name": "track-duration",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Converts milliseconds to a format like Spotify's track durations",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
