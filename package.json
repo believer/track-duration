@@ -17,7 +17,7 @@
     "prepare:build": "trash dist && npm run build && npm test && npm run rollup:build"
   },
   "dependencies": {
-    "bs-platform": "8.0.3"
+    "bs-platform": "8.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "13.0.0",
@@ -27,7 +27,7 @@
     "is-ci-cli": "2.1.2",
     "jest": "26.1.0",
     "reason-test-framework": "0.3.2",
-    "rollup": "2.18.2",
+    "rollup": "2.20.0",
     "rollup-plugin-copier": "1.1.0",
     "rollup-plugin-filesize": "9.0.2",
     "trash-cli": "3.0.0"
