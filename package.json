@@ -27,7 +27,7 @@
     "is-ci-cli": "2.1.2",
     "jest": "26.4.2",
     "reason-test-framework": "0.3.2",
-    "rollup": "2.26.5",
+    "rollup": "2.26.8",
     "rollup-plugin-copier": "1.1.0",
     "rollup-plugin-filesize": "9.0.2",
     "trash-cli": "3.1.0"
