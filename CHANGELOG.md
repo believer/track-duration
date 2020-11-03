@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/believer/track-duration/compare/v0.2.5...v0.2.6) (2020-11-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency bs-platform to v8.3.2 ([8ba4320](https://github.com/believer/track-duration/commit/8ba4320953597403b16c6b83ca72b7c1e9ea42a5))
+
 ## [0.2.5](https://github.com/believer/track-duration/compare/v0.2.4...v0.2.5) (2020-10-14)
 
 
