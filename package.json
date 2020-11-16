@@ -17,7 +17,7 @@
     "prepare:build": "trash dist && npm run build && npm test && npm run rollup:build"
   },
   "dependencies": {
-    "bs-platform": "8.3.2"
+    "bs-platform": "8.3.3"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "16.0.0",
